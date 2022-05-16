@@ -1,0 +1,28 @@
+{
+  "name": "hedera-project",
+  "version": "1.0.0",
+  "description": "Hedera Blockchain Project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Hedera",
+    "NFT",
+    "Smart",
+    "Contracts"
+  ],
+  "author": "Chris Nzouat",
+  "license": "ISC",
+  "dependencies": {
+    "@hashgraph/sdk": "^2.13.1",
+    "@openzeppelin/contracts": "^4.6.0",
+    "dotenv": "^16.0.1",
+    "ipfs": "^0.62.3",
+    "ipfs-http-client": "^56.0.3",
+    "native-fetch": "^4.0.2"
+  },
+  "devDependencies": {
+    "eslint": "^8.15.0"
+  }
+}
