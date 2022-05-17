@@ -24,7 +24,7 @@ contract JobPost {
   //   jobCounter++;
   //   JobsByIndex[jobCounter] = Job(jobCounter, _jobTitle, _paymentMethod, _account);
   // }
-  function newJobPostByAccount(string memory _jobTitle, string memory _paymentMethod) public{
+  function newJobPostByAccount(string memory _jobTitle, string memory  _paymentMethod) public{
     jobCounter++;
     JobsByAccount[msg.sender].push(Job(jobCounter, _jobTitle, _paymentMethod, msg.sender));
   }
