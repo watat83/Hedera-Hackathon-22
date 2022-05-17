@@ -23,7 +23,8 @@ Download the project from [github](https://github.com/watat83/Hedera-Hackathon-2
 
 Once the download is complete, your project folder should look like this:
 
-![Project-Folder](assets/images/project-folder.png)
+<!-- ![Project-Folder](assets/images/project-folder.png) -->
+<img src="assets/images/project-folder.png" width="300">
 
 ## Folder Structure
 
@@ -34,11 +35,11 @@ Looking at the folder, the most important files to explore are:
 - Test: this is where the test script (`test/JobPost.test.js`) of the contract `JobPost.sol` will reside. This script will run and make sure the contract was executed properly
 - .env.example: This is where environment variables for your application will be stored. Make sure to update the variables with corresponding values. The file looks like this
 
-![.env](assets/images/.env.png)
+<img src="assets/images/.env.png" width="300">
 
 - package.json: this is where all the dependencies and frameworks will be referenced. The dependencies currently installed are:
 
-![Dependencies](assets/images/dependencies.png)
+<img src="assets/images/dependencies.png" width="300">
 
 - truffle-config.js: This is where network configurations are made. We won't be touching this file at all.
 
@@ -121,7 +122,9 @@ Inside your project folder, run the following command to run the test script (`t
 
 ```
 
-![truffle-test](assets/images/truffle-test.png)
+<!-- ![truffle-test](assets/images/truffle-test.png) -->
+
+<img src="assets/images/truffle-test.png" width="500">
 
 ## Hedera Testing
 
@@ -160,7 +163,9 @@ To ensure that you can test file upload locally, make sure to
 # Output
 ```
 
-![ipfs-daemon](assets/images/ipfs-daemon.png)
+<!-- ![ipfs-daemon](assets/images/ipfs-daemon.png) -->
+
+<img src="assets/images/ipfs-daemon.png" width="400">
 
 ### hedera_client/JobPosting.js
 
@@ -205,7 +210,9 @@ To execute our `contracts/JobPost.sol` smart contract on the hedera network, let
 
 ```
 
-![job-posting](assets/images/job-posting.png)
+<!-- ![job-posting](assets/images/job-posting.png) -->
+
+<img src="assets/images/job-posting.png" width="500">
 
 ### hedera_client/NFT.js
 
